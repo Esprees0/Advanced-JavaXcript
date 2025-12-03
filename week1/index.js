@@ -1,1 +1,2 @@
-console.log("Hello World");
+console.log("Hello World,Kanchaya eiei");
+alert("Hello World,Kanchaya eiei");
