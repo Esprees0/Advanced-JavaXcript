@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h2>My First Web Page</h2>
+    <p>My first paragraph.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        try {
+            lalala;
+        }
+        catch(err) {
+            alert(err.name);
+            alert(err.message);
+            alert(err.stack);
+            alert(err);
+            document.getElementById("demo").innerHTML = err.name + "<br>" + err.message + "<br>" + err.stack;
+        }
+    </script>
+</body>
+</html>
