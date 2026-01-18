@@ -7,7 +7,7 @@ function processAndCombineStrings(strings, lengthThreshold) {
   // ฟังก์ชันสำหรับนับสระ (A, E, I, O, U)
   const countVowels = (str) => {
     let count = 0;
-    const vowels = "AEIOU";
+    const vowels = ["A", "E", "I", "O", "U"];
     for (let char of str) {
       if (vowels.includes(char)) count++;
     }
@@ -37,6 +37,5 @@ console.log(processAndCombineStrings(strings, 5));
 
 console.log(processAndCombineStrings(strings, 6)); 
 // ผลลัพธ์: "BANANA CHERRY"
-
 console.log(processAndCombineStrings(["hi", "hello", "world"], 2)); 
 // ผลลัพธ์: "HELLO WORLD HI"
